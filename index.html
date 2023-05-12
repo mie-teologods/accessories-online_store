@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+<title>ONLINE STORE</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="slider.css">
+ <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+ <script src="js/bjqs-1.3.min.js"></script>
+</head>
+<body bgcolor="#AAC8A7">
+ <div id="container">
+  <marquee behavior="alternate">
+  <font face="Comic Sans" size="6" color="black">
+   <h2><center>FUSION ACCCESSORIES</center></h2>
+  </marquee>
+  </font>
+
+ <center>
+  <img src="logo.jpg" width="350" height="300" title="My Company">
+  <font face="Comic Sans" size="6" color="DarkSlateGray">
+  <i><h3>"Your looks made even better"</h3></i></font>
+
+ <div id="banner-fade">
+ <center>
+  <img src="product_1.jpg" width="250" height="200" title="Letter Necklace  Price Php 100">
+  <img src="product_2.jpg" width="250" height="200" title="Four leaf Clover 3in1 Jewelry Set  Price Php 200">
+  <img src="product_3.jpg" width="250" height="200" title="Tai Chi Necklace  Price Php 100">
+  <img src="product_4.jpg" width="250" height="200" title="Gold Stainless Steel Pendants  Price Php 200">
+  <img src="product_5.jpg" width="250" height="200" title="Shoelaces Little Lion Bracelet  Price Php 50">
+  <img src="product_6.jpg" width="250" height="200" title="Natural Stone Beaded Bracelet  Price Php 50">
+  <img src="product_7.jpg" width="250" height="200" title="Letter Bracelet  Price Php 50">
+  <img src="product_8.jpg" width="250" height="200" title="Beads Anklet  Price Php 50">
+  <img src="product_9.jpg" width="250" height="200" title="Metal Chain Anklet  Price Php 80">
+  <img src="product_10.jpg" width="250" height="200" title="Stainless Chain Anklet  Price Php 80">
+</center>
+
+<script class="secret-source"> jQuery(document).ready(function($) {
+  $('#banner-fade').bjqs({
+  height :320,
+  width :620,
+  responsive :true
+  }); });
+</script>
+</div>
+
+<h1><center>
+<font face="Verdana" size="2" color="#666666">______________________________________________________________________________________________________________________________
+</center></h1>
+<p><p>
+<center>
+<a href="product1.html">Letter Necklace</a> |
+<a href="product2.html">Four leaf Clover 3in1 Jewelry Set</a> | 
+<a href="product3.html">Tai Chi Necklace</a> | 
+<a href="product4.html">Gold Stainless Stell Pendants</a> | 
+<a href="product5.html">Shoelaces Little Lion Bracelet</a> |
+<a href="logo.html">Fusion Accessories</a> | <br> 
+<a href="product6.html">Natural Stone Beaded Bracelet</a> | &nbsp;&nbsp;&nbsp;
+<a href="product7.html">Letter Bracelet</a> | 
+<a href="product8.html">Beads Anklet</a> | 
+<a href="product9.html">Metal Chain Anklet</a> | 
+<a href="product10.html">Stainless Chain Anklet</a> |  
+</center>
+<p><p>
+ <center>
+ <font face="Comic Sans" size="4" color="black">Universidad De Manila, Palanca St.  Cell Number 09236789765
+ <font face="Verdana" size="2" color="#424949 ">
+ <p>Copyright ©️ 2023 All rights reserved.
+ </font>
+ </center>
+</body>
+</html>
+
+<!-- ******** slide *********** -->
+
+<SCRIPT LANGUAGE="JavaScript">
+
+var num=1
+img1 = new Image ()
+img1.src = "product_1.jpg"
+img2 = new Image ()
+img2.src = "product_2.jpg"
+img3 = new Image ()
+img3.src = "product_3.jpg"
+img4 = new Image ()
+img4.src = "product_4.jpg"
+img5 = new Image ()
+img5.src = "product_5.jpg"
+img6 = new Image ()
+img6.src = "product_6.jpg"
+img7 = new Image ()
+img7.src = "product_7.jpg"
+img8 = new Image ()
+img8.src = "product_8.jpg"
+img9 = new Image ()
+img9.src = "product_9.jpg"
+img10 = new Image ()
+img10.src = "product_10.jpg"
+
+text1 = "Letter Necklace"
+text2 = "Four leaf Clover 3in1 Jewelry Set"
+text3 = "Tai Chi Necklace"
+text4 = "Gold Stainless Stell Pendants"
+text5 = "Shoelaces Little Lion Bracelet"
+text6 = "Natural Stone Beaded Bracelet"
+text7 = "Letter Bracelet"
+text8 = "Beads Anklet"
+text9 = "Metal Chain Anklet"
+text10 = "Stainless Chain Anklet"
+
+function slideshowUp()
+ {
+ num=num+1
+ if (num==11)
+ {num=1}
+ document.mypic.src=eval("img"+num+".src")
+ document.joe.burns.value=eval("text"+num)
+ }
+
+ function slideshowBack()
+ {
+ num=num-1
+ if (num==0)
+ {num=10}
+ document.mypic.src=eval("img"+num+".src")
+ document.joe.burns.value=eval("text"+num)
+ }
+
+</SCRIPT>
+
+<!-- The Image and Form Codes are Below -->
+ <CENTER>
+ <IMG SRC="product_1.jpg" NAME="mypic" BORDER=0 HEIGHT="300" WIDTH="300">
+  <p>
+  <A HREF="JavaScript:slideshowBack()"> Back</A>&nbsp;&nbsp;&nbsp;
+  <A HREF="JavaScript:slideshowUp()"> Next</A>
